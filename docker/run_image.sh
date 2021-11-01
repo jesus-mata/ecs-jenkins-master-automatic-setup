@@ -1,0 +1,1 @@
+docker run --name jenkins --rm -p 8080:8080 --env JENKINS_USERNAME=admin --env JENKINS_PASSWORD=password --env JENKINS_URL=http://localhost:8080/ jenkins:jcasc
